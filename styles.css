@@ -135,12 +135,6 @@ li {
   background: linear-gradient(black, rgb(16,16,14));
 }
 
-.gradientTransitionB {
-  height: 15vh;
-  width: 100%;
-  background: linear-gradient(rgb(16,16,14), rgb(28,35,42));
-}
-
 .chooseYourColor {
   width: 80%;
   height: auto;
@@ -172,7 +166,7 @@ li {
   padding-top: 10vh;
 }
 
-.middle-container {
+.middle-container, .timeline {
   background: url(images/background_imgs/star-wars-background.jpeg);
   padding-bottom: 15vh;
 }
@@ -383,9 +377,3 @@ li {
 }
 
 /* Lightsaber timeline */
-.timeline {
-  height: 700px;
-  width: auto;
-  background: url('images/background_imgs/jedi_temple.jpeg');
-  background-size: cover;
-}
