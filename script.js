@@ -13,7 +13,7 @@ showModalBtns.forEach((btn, idx) => btn.addEventListener('click', function() {
   }))
 
 closeModalBtns.forEach((x,i) => x.addEventListener('click', function() {
-    console.log('Hey, listen!');
+    console.log('Hey listen!');
     modals[i].classList.toggle('hidden');
 }))
 
