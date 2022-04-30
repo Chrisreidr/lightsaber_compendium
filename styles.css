@@ -5,6 +5,11 @@ html {
 body {
   margin: 0;
   font-size: 15px;
+  font-family: garamond;
+}
+
+h1 {
+  font-size: 0.5em;
 }
 
 :root {
@@ -61,7 +66,7 @@ li {
   height: 80px;
   width: 5px;
   border-radius: 5px;
-  bottom: 560px;
+  top: 5vh;
 }
 
 .blue-ls-header {
@@ -273,7 +278,7 @@ li {
 
 .modal-imgs {
   height: auto;
-  width: 600px;
+  width: 380px;
   border-radius: 5px;
 }
 
