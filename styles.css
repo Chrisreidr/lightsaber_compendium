@@ -287,6 +287,10 @@ li {
   gap: 10px;
 }
 
+.starWarsText {
+  font-family: 'Poller One', cursive;
+}
+
 .hidden {
   display: none;
 }
