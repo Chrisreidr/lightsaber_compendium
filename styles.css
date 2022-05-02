@@ -13,7 +13,7 @@ h1 {
 }
 
 :root {
-  --lsHiltColor: rgb(153, 148, 148);
+  --lsHiltColor: rgb(199, 190, 190);
 }
 
 li {
@@ -254,7 +254,7 @@ li {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 75%;
+  width: 65%;
   background: white;
   padding: 3rem;
   border-radius: 5rem;
@@ -278,7 +278,7 @@ li {
 
 .modal-imgs {
   height: auto;
-  width: 380px;
+  width: 350px;
   border-radius: 5px;
 }
 
@@ -289,6 +289,12 @@ li {
 
 .starWarsText {
   font-family: 'Poller One', cursive;
+  font-size: 1em;
+}
+
+.starWarsTextModal {
+  font-family: 'Poller One', cursive;
+  font-size: 1.5em;
 }
 
 .hidden {
