@@ -124,6 +124,23 @@ li {
   height: 80%;
 }
 
+.gradientTransition {
+  height: 15vh;
+  width: 100%;
+  background: linear-gradient(black, rgb(16,16,14));
+}
+
+.chooseYourColor {
+  width: 80%;
+  height: auto;
+  border-radius: 25%;
+  background: rgb(0,0,0,0.75);
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10vh;
+  box-shadow: 0 0 15px white;
+}
+
 /* intro */
 
 .intro {
@@ -131,15 +148,22 @@ li {
   flex-direction: column;
   align-items: center;
   font-size: 1.5em;
-  width: 60%;
-  margin-left: 20%;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  position: relative;
+  color: rgb(249,215,28);
+  text-shadow: 0 0 15px white;
+  width: 100%;
+  padding: 10vh 0;
 }
 
 .choose {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 10vh;
+  padding-top: 10vh;
+}
+
+.middle-container {
+  background: url(images/star-wars-background.jpeg);
+  padding-bottom: 15vh;
 }
 
 /* Lightsaber buttons */
@@ -259,13 +283,14 @@ li {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  height: 77%;
   width: 65%;
   background: rgb(199, 190, 190);
   padding: 3rem;
-  border-radius: 10px;
+  border-radius: 15%;
   box-shadow: 0 3rem 5rem black;
   z-index: 2;
-  margin-top: 230vh;
+  margin-top: 136%;
 }
 
 .show-modal {
@@ -298,9 +323,29 @@ li {
   margin-top: 10vh;
 }
 
+.starWarsTextChooseColor, .lsChooseColorParagraph {
+  color: rgb(249,215,28);
+  text-shadow: 0 0 15px white;
+  font-family: 'Poller One', cursive;
+}
+
+.starWarsTextChooseColor {
+  padding-bottom: 5vh;
+}
+
+.lsChooseColorParagraph {
+  width: 80%;
+  padding-top: 15vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.5em;
+}
+
 .starWarsTextSummary {
   font-family: 'Poller One', cursive;
   font-size: 1em;
+  width: 60%;
 }
 
 .starWarsTextModal {
