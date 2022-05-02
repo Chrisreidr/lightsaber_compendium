@@ -217,6 +217,11 @@ li {
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
+.whiteSpan {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 #whitels:hover, .whitebtn:hover {
   color: white;
   border-color: rgb(255, 253, 253, 0.5);
@@ -255,12 +260,12 @@ li {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 65%;
-  background: white;
+  background: rgb(199, 190, 190);
   padding: 3rem;
-  border-radius: 5rem;
+  border-radius: 10px;
   box-shadow: 0 3rem 5rem black;
-  z-index: 10;
-  margin-top: 1300px;
+  z-index: 2;
+  margin-top: 230vh;
 }
 
 .show-modal {
@@ -288,6 +293,12 @@ li {
 }
 
 .starWarsText {
+  font-family: 'Poller One', cursive;
+  font-size: 0.75em;
+  margin-top: 10vh;
+}
+
+.starWarsTextSummary {
   font-family: 'Poller One', cursive;
   font-size: 1em;
 }
