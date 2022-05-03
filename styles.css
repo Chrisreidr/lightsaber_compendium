@@ -290,7 +290,7 @@ li {
   border-radius: 15%;
   box-shadow: 0 3rem 5rem black;
   z-index: 2;
-  margin-top: 136%;
+  margin-top: 160%;
 }
 
 .show-modal {
@@ -327,10 +327,11 @@ li {
   color: rgb(249,215,28);
   text-shadow: 0 0 15px white;
   font-family: 'Poller One', cursive;
+  line-height: 1.75;
 }
 
 .starWarsTextChooseColor {
-  padding-bottom: 5vh;
+  padding: 3vh auto;
 }
 
 .lsChooseColorParagraph {
@@ -346,6 +347,7 @@ li {
   font-family: 'Poller One', cursive;
   font-size: 1em;
   width: 60%;
+  line-height: 1.75;
 }
 
 .starWarsTextModal {
