@@ -4,6 +4,8 @@ const overlay = document.querySelector('.overlay');
 const closeModalBtns = document.querySelectorAll('.close-modal');
 const showModalBtns = document.querySelectorAll('.show-modal');
 
+console.log(showModalBtns);
+
 showModalBtns.forEach((btn, idx) => btn.addEventListener('click', function() {
     console.log(modals[idx]);
     console.log(btn);
