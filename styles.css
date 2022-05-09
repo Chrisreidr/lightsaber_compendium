@@ -290,20 +290,12 @@ li {
   transform: translate(-50%, -50%);
   height: 77%;
   width: 65%;
-  background: rgb(247,247,247);
+  background: rgb(245,245,245);
   padding: 3rem;
   border-radius: 15%;
   box-shadow: 0 3rem 5rem black;
   z-index: 2;
   margin-top: 160%;
-}
-
-.blue-ls-background, .orange-ls-background {
-  background: rgb(255,255,255);
-}
-
-.yellow-ls-background {
-  background: rgb(247,247,247);
 }
 
 .show-modal {
