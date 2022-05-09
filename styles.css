@@ -24,6 +24,11 @@ li {
   width: 100%;
 }
 
+.ls-imgs {
+  height: 151px;
+  width: 576px;
+}
+
 .ls-fade {
   width: 600px;
   font-size: 1.6em;
@@ -293,7 +298,7 @@ li {
   margin-top: 160%;
 }
 
-.blue-ls-background {
+.blue-ls-background, .orange-ls-background {
   background: rgb(255,255,255);
 }
 
@@ -369,6 +374,8 @@ li {
 }
 
 .starWarsTextModal {
+  display: flex;
+  align-items: center;
   font-family: 'Poller One', cursive;
   font-size: 1.5em;
 }
