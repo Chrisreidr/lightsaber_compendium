@@ -324,8 +324,9 @@ li {
 }
 
 .modal-imgs {
-  height: 288px;
-  width: 576px;
+  position: relative;
+  height: auto;
+  width: 90%;
   border-radius: 5px;
 }
 
@@ -378,14 +379,20 @@ li {
 }
 
 .starWarsTextModal {
-  display: flex;
-  align-items: center;
+  width: 100%;
   font-family: 'Poller One', cursive;
   font-size: 1.5em;
 }
 
 .hidden {
   display: none;
+}
+
+@media only screen and (max-width: 2890px) {
+  .starWarsTextModal {
+    font-size: 1.25em;
+
+  }
 }
 
 /* Lightsaber timeline */
